@@ -68,7 +68,7 @@ margin-top: 10px;
             </div>
             <!-- 第二個輸入- Email -->
             <div class="col-sm-6 form-group">
-                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                <input class="form-control" id="birthday" name="birthday" placeholder="Birthday" type="birthday" required>
             </div>
         </div>
         <br>
@@ -94,12 +94,12 @@ margin-top: 10px;
 
     function getValues(){
         var name=document.getElementById("name");
-        var email=document.getElementById("email");
+        var birthday=document.getElementById("birthday");
         var comments=document.getElementById("comments");
 
         var rowData={
             name: name.value,
-            email: email.value,
+            birthday: birthday.value,
             comments: comments.value
         };
 
